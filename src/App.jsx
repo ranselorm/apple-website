@@ -6,8 +6,8 @@ const App = () => {
   return (
     <main className="">
       <Navbar />
-      {/* <Hero />
-      <Highlights /> */}
+      <Hero />
+      <Highlights />
     </main>
   );
 };
