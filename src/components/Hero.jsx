@@ -26,7 +26,7 @@ const Hero = () => {
 
   useGSAP(() => {
     gsap.to("#hero-title", { opacity: 1, delay: 0.5 });
-    gsap.to("#cta", { opacity: 1, delay: 0.5, y: 0 });
+    gsap.to("#cta", { opacity: 1, delay: 0.5, y: 0, delay: 1.2 });
   }, []);
   return (
     <section className="bg-black w-full nav-height relative">
